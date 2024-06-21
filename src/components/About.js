@@ -1,4 +1,4 @@
-import "../About.css"
+import "../About.css";
 export default function About() {
   return (
     <>
@@ -55,9 +55,7 @@ export default function About() {
         <h3>Projects</h3>
         <p>
           I have several projects available for review to demonstrate my level
-          of expertise and the quality of my work. (You can add links to your
-          projects here or create a separate portfolio page containing project
-          details and images).
+          of expertise and the quality of my work.
         </p>
 
         <h3>Contact Me</h3>
@@ -79,19 +77,19 @@ export default function About() {
           projects.
         </p>
       </section>
-      <br/>
-      <br/>
+      <br />
+      <br />
       <a
-            href="#contact"
-            style={{
-              textDecoration: "none",
-              color: "#eee",
-              fontWeight: "500",
-              borderBottom: "#eee solid 2px",
-            }}
-          >
-            Download Resume as PDF
-          </a>
+        href="https://drive.google.com/uc?export=download&id=1dBfAG-n1ndqYvdUSo_vgk_xC8_XTq-8y"
+        style={{
+          textDecoration: "none",
+          color: "#eee",
+          fontWeight: "500",
+          borderBottom: "#eee solid 2px",
+        }}
+      >
+        Download Resume as PDF
+      </a>
     </>
   );
 }
