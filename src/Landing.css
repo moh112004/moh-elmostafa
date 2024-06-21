@@ -1,0 +1,33 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media (max-width: 950px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+.row img {
+    width: 450px;
+}
+@media (max-width: 1200px) {
+    .row img {
+      width: 100%;
+    }
+  }
+.row p {
+    font-size: 20px;
+    max-width: 500px;
+    color: #eee;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+}
+@media (max-width: 1200px) {
+    .row p {
+      max-width: 100%;
+      font-size: 19px;
+    }
+  }

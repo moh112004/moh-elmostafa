@@ -1,0 +1,12 @@
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+@media (max-width: 1000px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,28 @@
+.service {
+    background-color: #051636;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eee;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 1000px) {
+    .service {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+.service img {
+    width: 100%;
+}
+.service p {
+    max-width: 100%;
+}
+.service {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .service:hover {
+    scale: 1.1;
+  }
+  

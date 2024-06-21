@@ -1,0 +1,18 @@
+.blogArtcile {
+    padding: 150px 20% 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #eee;
+
+}
+.blogArtcile img {
+    width: 30%;
+    height: 300px;
+}
+.blogArtcile div {
+    background-color: #051636;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
