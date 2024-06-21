@@ -17,10 +17,10 @@
 }
 .project p {
     max-width: 100%;
+    cursor: pointer;
 }
 .project {
     transition: 0.3s ease-in-out;
-    cursor: pointer;
   }
   .project:hover {
     scale: 1.1;
