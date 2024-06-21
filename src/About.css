@@ -1,0 +1,13 @@
+.about {
+    font-size: 20px;
+    color: #eee;
+    background-color: #051636;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+  }
+  @media (max-width: 1000px) {
+    .about {
+        font-size: 18px;
+    }
+  }

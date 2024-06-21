@@ -1,16 +1,8 @@
-let Style = {
-  fontSize: "20px",
-  color: "#eee",
-  backgroundColor: "#051636",
-  padding: "10px",
-  borderRadius: "10px",
-  boxShadow: "0px 10px 10px rgba(0, 0, 0, 0.4)",
-
-};
+import "../About.css"
 export default function About() {
   return (
     <>
-      <section style={Style}>
+      <section className="about">
         <h3>Who I Am</h3>
         <p>
           Hello, I'm Mohamed Mustafa, a Front-End Developer specializing in
