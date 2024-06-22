@@ -14,7 +14,7 @@ export default function Project({image, lable, content, link}) {
         <p>
           {content}
         </p>
-        <span>Project's link : </span><a href={"https://"+link} style={AStyle}>{link}</a>
+        <span>Project's link : </span><a href={"https://"+link} style={AStyle} target="_blank">{link}</a>
       </div>
     </>
   );

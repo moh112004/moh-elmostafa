@@ -4,7 +4,7 @@ export default function Landing() {
   return (
     <>
       <div className="row">
-        <img src={me} alt="" />
+        <img src={me} alt="" loading="lazy" />
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <p>
