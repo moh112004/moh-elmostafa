@@ -1,14 +1,12 @@
-import me from "../me.jpg"
 import "../Service.css"
-export default function Service() {
+export default function Service({image, lable, content}) {
     return (
         <>
         <div className="service">
-        <img src={me} alt="" />
-        <h3 style={{margin: "0", fontSize: "20px"}}>Lable</h3>
+        <img src={image} alt="" />
+        <h3 style={{margin: "0", fontSize: "20px"}}>{lable}</h3>
         <p>
-          lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-          lorem lorem lorem lorem lorem
+          {content}
         </p>
         </div>
         </>

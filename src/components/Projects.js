@@ -6,6 +6,7 @@ import rajil from "../rajil.jpg";
 import rajilCaptain from "../rajil-captain.jpg";
 import rajilClient from "../rajil-client.jpg";
 import moda from "../moda.jpg";
+import eltech from "../eltech.jpg";
 export default function Projects() {
   let [more, setMore] = useState(0);
   let [buttonTitle, setButtonTitle] = useState("Show more ...");
@@ -41,12 +42,18 @@ export default function Projects() {
         className="more"
         style={more === 0 ? { display: "none" } : { display: "block" }}
       >
-        <div className="projectsRow">
+        <div className="projectsRow" style={{ justifyContent: "space-around" }}>
           <Project
             image={leon}
             lable="Leon"
             content="Blank single page application template for reuse."
             link="leon-n8kz.onrender.com"
+          />
+          <Project
+            image={eltech}
+            lable="ELTECH"
+            content="A website for ELTECH Software Solutions Company to display its services."
+            link="eltech4.onrender.com"
           />
         </div>
       </div>
