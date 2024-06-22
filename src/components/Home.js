@@ -8,6 +8,7 @@ import Articles from "./Articles";
 import Projects from "./Projects";
 import Services from "./Services"
 import Contact from "./Contact";
+import WhatsAppIcon from "./WhatsAppIcon";
 import Footer from "./Footer";
 import "../Home.css"
 function Home() {
@@ -37,6 +38,7 @@ function Home() {
         </span>
         <Contact />
       </div>
+      <WhatsAppIcon/>
       <Footer/>
     </div>
   );

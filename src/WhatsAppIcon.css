@@ -1,0 +1,10 @@
+.whatsAppIcon {
+    width: 35px;
+    background-color: green;
+    position: fixed;
+    bottom: 13px;
+    right: 13px;
+    padding: 6px 10px;
+    border-radius: 35px;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.4) ;
+}

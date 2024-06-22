@@ -3,11 +3,11 @@ import "../Landing.css";
 export default function Landing() {
   return (
     <>
-      <div className="row">
-        <img src={me} alt="" loading="lazy" />
+      <div className="row" >
+        <img src={me} alt="" data-aos="zoom-out" data-aos-duration="2000"/>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <p>
+        <p data-aos="zoom-out" data-aos-duration="2000">
           {" "}
           &nbsp; &nbsp; &nbsp;Hello, I'm Mohamed Mustafa, a Front-End Developer
           specializing in performance optimization, user experience, and

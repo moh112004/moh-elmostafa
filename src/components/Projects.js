@@ -14,28 +14,29 @@ export default function Projects() {
     <>
       <div className="projectsRow">
         <Project
+          image={eltech}
+          lable="ELTECH"
+          content="A website for ELTECH Software Solutions Company to display its services."
+          link="eltech4.onrender.com"
+        />
+        <Project
           image={moda}
           lable="Moda steel factory"
           content="An introductory website for Moda Steel Factory."
           link="modasteelfactory.com"
         />
-        <Project
-          image={rajilClient}
-          lable="Rajil client form"
-          content="A page that is a form that is part of an order delivery system that the customer fills out when he orders."
-          link="rajil-client-form.onrender.com"
-        />
-        <Project
-          image={rajilCaptain}
-          lable="Rajil captain form"
-          content="A page that is a form that is part of an order delivery system that the captain fills out when he delivers the order."
-          link="rajil-captain-form.onrender.com"
-        />
+
         <Project
           image={rajil}
           lable="Rajil soon page"
           content="'soon' page for Rajil Delivery Company's website."
           link="rajil.onrender.com"
+        />
+        <Project
+          image={leon}
+          lable="Leon"
+          content="Blank single page application template for reuse."
+          link="leon-n8kz.onrender.com"
         />
       </div>
       <div
@@ -44,16 +45,16 @@ export default function Projects() {
       >
         <div className="projectsRow" style={{ justifyContent: "space-around" }}>
           <Project
-            image={leon}
-            lable="Leon"
-            content="Blank single page application template for reuse."
-            link="leon-n8kz.onrender.com"
+            image={rajilClient}
+            lable="Rajil client form"
+            content="A page that is a form that is part of an order delivery system that the customer fills out when he orders."
+            link="rajil-client-form.onrender.com"
           />
           <Project
-            image={eltech}
-            lable="ELTECH"
-            content="A website for ELTECH Software Solutions Company to display its services."
-            link="eltech4.onrender.com"
+            image={rajilCaptain}
+            lable="Rajil captain form"
+            content="A page that is a form that is part of an order delivery system that the captain fills out when he delivers the order."
+            link="rajil-captain-form.onrender.com"
           />
         </div>
       </div>
