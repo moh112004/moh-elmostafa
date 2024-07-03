@@ -10,7 +10,7 @@ export default function Landing() {
           data-aos="zoom-out"
           data-aos-duration="2000"
           data-aos-once="true"
-          data-aos-delay="500"
+          data-aos-delay="50"
         />
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -18,7 +18,7 @@ export default function Landing() {
           data-aos="zoom-out"
           data-aos-duration="2000"
           data-aos-once="true"
-          data-aos-delay="500"
+          data-aos-delay="50"
         >
           {" "}
           &nbsp; &nbsp; &nbsp;Hello, I'm Mohamed Mustafa, a Front-End Developer

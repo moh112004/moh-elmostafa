@@ -30,7 +30,7 @@ function Home() {
     <div>
         
         <AppBar />
-        <div className="home" style={{visibility:isPageVisible? "visible":"hidden"}}>
+        {isPageVisible?(<div className="home">
             <Landing />
           <span id="about">
             <Lable>About</Lable>
@@ -53,9 +53,9 @@ function Home() {
           </span>
           <Contact />
           <WhatsAppIcon />
-        </div>
+        </div>):<></>}
         <Footer />
-      </div>//:<></>
+      </div>
   );
 }
 
