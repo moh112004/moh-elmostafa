@@ -16,7 +16,6 @@ const WhatsAppIcon = React.lazy(() => import('./WhatsAppIcon'));
 
 function Home() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
       <div>
         <AppBar />
         <div className="home">
@@ -49,7 +48,6 @@ function Home() {
         </Suspense>
         <Footer />
       </div>
-    </Suspense>
   );
 }
 
