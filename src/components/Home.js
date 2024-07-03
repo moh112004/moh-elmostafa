@@ -1,27 +1,37 @@
 // Home.js
-import React, { Suspense } from "react";
+import React, { useState, useEffect } from "react";
 import AppBar from "./AppBar";
-// import Landing from "./Landing";
+import Landing from "./Landing";
 import Lable from "./Lable";
 import About from "./About";
 // import Articles from "./Articles";
 import Projects from "./Projects";
 import Services from "./Services";
 import Contact from "./Contact";
-// import WhatsAppIcon from "./WhatsAppIcon";
+import WhatsAppIcon from "./WhatsAppIcon";
 import Footer from "./Footer";
 import "../Home.css";
-const Landing = React.lazy(() => import('./Landing'));
-const WhatsAppIcon = React.lazy(() => import('./WhatsAppIcon'));
+// const Landing = React.lazy(() => import('./Landing'));
+// const WhatsAppIcon = React.lazy(() => import('./WhatsAppIcon'));
 
 function Home() {
-  return (
-      <div>
+  const [isPageVisible, setIsPageVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsPageVisible(true);
+    }, 1000); // تأخير لمدة ثانية واحدة (1000 مللي ثانية)
+
+    // تنظيف المؤقت عندما يتم إزالة المكون
+    return () => clearTimeout(timer);
+  }, []);
+
+  return ( isPageVisible?
+    <div>
+        
         <AppBar />
         <div className="home">
-          <Suspense fallback={<div>Loading...</div>}>
             <Landing />
-          </Suspense>
           <span id="about">
             <Lable>About</Lable>
           </span>
@@ -43,11 +53,9 @@ function Home() {
           </span>
           <Contact />
         </div>
-        <Suspense fallback={<div>Loading...</div>}>
           <WhatsAppIcon />
-        </Suspense>
         <Footer />
-      </div>
+      </div>:<></>
   );
 }
 
