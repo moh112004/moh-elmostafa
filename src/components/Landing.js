@@ -8,15 +8,16 @@ export default function Landing() {
           src={me}
           alt=""
           data-aos="zoom-out"
-          data-aos-duration="2000"
+          data-aos-duration="3000"
           data-aos-once="true"
           data-aos-delay="50"
         />
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <p
           data-aos="zoom-out"
-          data-aos-duration="2000"
+          data-aos-duration="3000"
           data-aos-once="true"
           data-aos-delay="50"
         >

@@ -26,36 +26,39 @@ function Home() {
     return () => clearTimeout(timer);
   }, []);
 
-  return ( //isPageVisible?
+  return (
+    //isPageVisible?
     <div>
-        
-        <AppBar />
-        {isPageVisible?(<div className="home">
-            <Landing />
-          <span id="about">
-            <Lable>About</Lable>
-          </span>
-          <About />
-          <span id="portfolio">
-            <Lable>Portfolio</Lable>
-          </span>
-          <Projects />
-          {/* <span id="blog">
+      <AppBar />
+      <div
+        className="home"
+        style={{ visibility: isPageVisible?"visible":"hidden"}}
+      >
+        <Landing />
+        <span id="about">
+          <Lable>About</Lable>
+        </span>
+        <About />
+        <span id="portfolio">
+          <Lable>Portfolio</Lable>
+        </span>
+        <Projects />
+        {/* <span id="blog">
           <Lable>Blog</Lable>
         </span> 
         <Articles />*/}
-          <span id="services">
-            <Lable>Services</Lable>
-          </span>
-          <Services />
-          <span id="contact">
-            <Lable>Contact</Lable>
-          </span>
-          <Contact />
-          <WhatsAppIcon />
-        </div>):<></>}
-        <Footer />
+        <span id="services">
+          <Lable>Services</Lable>
+        </span>
+        <Services />
+        <span id="contact">
+          <Lable>Contact</Lable>
+        </span>
+        <Contact />
+        <WhatsAppIcon />
       </div>
+      <Footer />
+    </div>
   );
 }
 
