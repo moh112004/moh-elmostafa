@@ -1,22 +1,26 @@
 // Home.js
-import React from "react";
+import React, {Suspense} from "react";
 import AppBar from "./AppBar";
 import Landing from "./Landing";
 import Lable from "./Lable";
 import About from "./About";
-import Articles from "./Articles";
+// import Articles from "./Articles";
 import Projects from "./Projects";
 import Services from "./Services"
 import Contact from "./Contact";
 import WhatsAppIcon from "./WhatsAppIcon";
 import Footer from "./Footer";
-import "../Home.css"
+import "../Home.css";
+const ImageComponent = React.lazy(() => import('./Landing'));
+
 function Home() {
   return (
     <div>
       <AppBar />
       <div className="home">
-        <Landing />
+      <Suspense fallback={<div>Loading...</div>}>
+                <ImageComponent />
+      </Suspense>
         <span id="about">
           <Lable>About</Lable>
         </span>
