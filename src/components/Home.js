@@ -26,11 +26,11 @@ function Home() {
     return () => clearTimeout(timer);
   }, []);
 
-  return ( isPageVisible?
+  return ( //isPageVisible?
     <div>
         
         <AppBar />
-        <div className="home">
+        <div className="home" style={{visibility:isPageVisible? "visible":"hidden"}}>
             <Landing />
           <span id="about">
             <Lable>About</Lable>
@@ -52,10 +52,10 @@ function Home() {
             <Lable>Contact</Lable>
           </span>
           <Contact />
-        </div>
           <WhatsAppIcon />
+        </div>
         <Footer />
-      </div>:<></>
+      </div>//:<></>
   );
 }
 

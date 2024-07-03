@@ -10,10 +10,16 @@ export default function Landing() {
           data-aos="zoom-out"
           data-aos-duration="2000"
           data-aos-once="true"
+          data-aos-delay="500"
         />
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <p data-aos="zoom-out" data-aos-duration="2000" data-aos-once="true">
+        <p
+          data-aos="zoom-out"
+          data-aos-duration="2000"
+          data-aos-once="true"
+          data-aos-delay="500"
+        >
           {" "}
           &nbsp; &nbsp; &nbsp;Hello, I'm Mohamed Mustafa, a Front-End Developer
           specializing in performance optimization, user experience, and
