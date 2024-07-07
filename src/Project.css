@@ -17,8 +17,8 @@
 }
 .project p {
     max-width: 100%;
-    cursor: pointer;
 }
+
 .project {
     transition: 0.3s ease-in-out;
   }

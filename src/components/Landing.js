@@ -22,7 +22,7 @@ export default function Landing() {
           data-aos-delay="50"
         >
           {" "}
-          &nbsp; &nbsp; &nbsp;Hello, I'm Mohamed Mustafa, a Front-End Developer
+          &nbsp; &nbsp; &nbsp;Hello, I'm Mohammed Elmostafa, a Front-End Developer
           specializing in performance optimization, user experience, and
           interactive design. Despite my short experience of less than a year, I
           have successfully completed several freelance projects. I possess high

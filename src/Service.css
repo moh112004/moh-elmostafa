@@ -18,11 +18,5 @@
 .service p {
     max-width: 100%;
 }
-.service {
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
-  }
-  /* .service:hover {
-    scale: 1.1;
-  } */
+
   

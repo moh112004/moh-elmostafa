@@ -3,11 +3,11 @@ export default function About() {
   return (
     <>
       <section className="about">
-      <h1>Mohamed Mustafa</h1>
+      <h1>Mohammed Elmostafa</h1>
         <p>Front-End and Mobile Developer</p>
         
         <h2>Summary</h2>
-        <p>Hello, I'm Mohamed Mustafa, a Front-End and Mobile Developer specializing in performance optimization, user experience, and interactive design. Despite my short experience of less than a year, I have successfully completed several freelance projects and held leadership roles.</p>
+        <p>Hello, I'm Mohammed Elmostafa, a Front-End and Mobile Developer specializing in performance optimization, user experience, and interactive design. Despite my short experience of less than a year, I have successfully completed several freelance projects and held leadership roles.</p>
         
         <h2>Education</h2>
         <p><strong>ALX Software Engineering Program</strong><br/>
