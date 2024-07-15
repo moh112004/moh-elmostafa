@@ -1,4 +1,4 @@
-import me from "../me-removed.png";
+import me from "../me.jpg";
 import "../Landing.css";
 export default function Landing() {
   return (
