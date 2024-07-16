@@ -1,4 +1,4 @@
-import me from "../me_blue_black.jpg";
+import me from "../me_blue_black_new.jpg";
 import "../Landing.css";
 export default function Landing() {
   return (

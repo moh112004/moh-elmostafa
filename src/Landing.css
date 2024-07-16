@@ -10,7 +10,7 @@
     }
   }
 .row img {
-    width: 460px;
+    width: 400px;
 }
 @media (max-width: 1200px) {
     .row img {
