@@ -32,24 +32,24 @@ export default function Projects() {
           content="'soon' page for Rajil Delivery Company's website."
           link="rajil.onrender.com"
         />
-        <Project
+        {/* <Project
           image={leon}
           lable="Leon"
           content="Blank single page application template for reuse."
           link="leon-n8kz.onrender.com"
+        /> */}
+        <Project
+          image={rajilClient}
+          lable="Rajil client form"
+          content="A page that is a form that is part of an order delivery system that the customer fills out when he orders."
+          link="rajil-client-form.onrender.com"
         />
       </div>
       <div
         className="more"
         style={more === 0 ? { display: "none" } : { display: "block" }}
       >
-        <div className="projectsRow" style={{ justifyContent: "space-around" }}>
-          <Project
-            image={rajilClient}
-            lable="Rajil client form"
-            content="A page that is a form that is part of an order delivery system that the customer fills out when he orders."
-            link="rajil-client-form.onrender.com"
-          />
+        <div className="projectsRow" style={{ justifyContent: "start" }}>
           <Project
             image={rajilCaptain}
             lable="Rajil captain form"
