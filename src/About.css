@@ -6,6 +6,9 @@
     border-radius: 10px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
   }
+  .about a {
+    color: #eee;
+  }
   @media (max-width: 1000px) {
     .about {
         font-size: 18px;

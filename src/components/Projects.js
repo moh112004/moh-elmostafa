@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import "../Projects.css";
 import Project from "./Project";
 import leon from "../leon.jpg";
@@ -10,26 +11,27 @@ import eltech from "../eltech.jpg";
 export default function Projects() {
   let [more, setMore] = useState(0);
   let [buttonTitle, setButtonTitle] = useState("Show more ...");
+  const { t } = useTranslation();
   return (
     <>
       <div className="projectsRow">
         <Project
           image={eltech}
-          lable="ELTECH"
-          content="A website for ELTECH Software Solutions Company to display its services."
+          lable={t('project.eltech.name')}
+          content={t('project.eltech.content')}
           link="eltech4.onrender.com"
         />
         <Project
           image={moda}
-          lable="Moda steel factory"
-          content="An introductory website for Moda Steel Factory."
+          lable={t('project.moda.name')}
+          content={t('project.moda.content')}
           link="modasteelfactory.com"
         />
 
         <Project
           image={rajil}
-          lable="Rajil soon page"
-          content="'soon' page for Rajil Delivery Company's website."
+          lable={t('project.rajil.name')}
+          content={t('project.rajil.content')}
           link="rajil.onrender.com"
         />
         {/* <Project
@@ -40,8 +42,8 @@ export default function Projects() {
         /> */}
         <Project
           image={rajilClient}
-          lable="Rajil client form"
-          content="A page that is a form that is part of an order delivery system that the customer fills out when he orders."
+          lable={t('project.rajilclient.name')}
+          content={t('project.rajilclient.content')}
           link="rajil-client-form.onrender.com"
         />
       </div>
@@ -52,8 +54,8 @@ export default function Projects() {
         <div className="projectsRow" style={{ justifyContent: "start" }}>
           <Project
             image={rajilCaptain}
-            lable="Rajil captain form"
-            content="A page that is a form that is part of an order delivery system that the captain fills out when he delivers the order."
+            lable={t('project.rajilcaptain.name')}
+            content={t('project.rajilcaptain.content')}
             link="rajil-captain-form.onrender.com"
           />
         </div>
@@ -63,6 +65,7 @@ export default function Projects() {
       </span>
     </>
   );
+
   function MoreClicked() {
     more === 0 ? setMore(1) : setMore(0);
     more === 0

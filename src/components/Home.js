@@ -1,5 +1,6 @@
 // Home.js
 import React, { useState, useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 import AppBar from "./AppBar";
 import Landing from "./Landing";
 import Lable from "./Lable";
@@ -26,6 +27,8 @@ function Home() {
     return () => clearTimeout(timer);
   }, []);
 
+  const { t, i18n } = useTranslation();
+
   return (
     //isPageVisible?
     <div>
@@ -36,11 +39,11 @@ function Home() {
       >
         <Landing />
         <span id="about">
-          <Lable>About</Lable>
+          <Lable>{t('about')}</Lable>
         </span>
         <About />
         <span id="portfolio">
-          <Lable>Portfolio</Lable>
+          <Lable>{t('portfolio')}</Lable>
         </span>
         <Projects />
         {/* <span id="blog">
@@ -48,11 +51,11 @@ function Home() {
         </span> 
         <Articles />*/}
         <span id="services">
-          <Lable>Services</Lable>
+          <Lable>{t('services')}</Lable>
         </span>
         <Services />
         <span id="contact">
-          <Lable>Contact</Lable>
+          <Lable>{t('contact')}</Lable>
         </span>
         <Contact />
         <WhatsAppIcon />

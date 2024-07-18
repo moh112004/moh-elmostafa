@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import linkedIn from "../linkedin-in.svg";
 import github from "../github.svg";
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <>
       <div style={{textAlign: "center", color: "#505050", borderTop: "#eee solid 2px", paddingTop: "10px"}}>
@@ -12,7 +14,7 @@ export default function Footer() {
             &nbsp;
             <a href="https://github.com/moh112004"><img alt="" src={github} style={{height: "20px"}}/></a>
         </div>
-        <p>By Moh Elomstafa</p>
+        <p>{t('bymoh')}</p>
       </div>
     </>
   );

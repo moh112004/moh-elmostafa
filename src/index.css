@@ -1,10 +1,41 @@
 html {
   scroll-behavior: smooth;
 }
+html[lang="ar"] {
+  direction: rtl;
+  text-align: right;
+}
+html[lang="ar"] .appBar {
+  direction: ltr;
+
+}
+html[lang="ar"] .appBar .large {
+  direction: rtl;
+}
+html[lang="ar"] .appBar .large li::after {
+  margin-right: 50%;
+  transform: translateX(50%);
+}
+html[lang="ar"] .row .landingText {
+  direction: rtl;
+}
+html[lang="ar"] .about {
+  text-align: right;
+  direction: rtl;
+}
+html[lang="ar"] .about .aboutEn {
+display: none;
+}
+html[lang="en"] .about .aboutAr {
+  display: none;
+}
+html[lang="ar"] .contact p {
+  direction: ltr;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,6 +43,6 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     .row {
       flex-direction: column;
       align-items: center;
@@ -12,7 +13,7 @@
 .row img {
     width: 400px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .row img {
       width: 100%;
     }
@@ -20,12 +21,13 @@
 .row p {
     font-size: 20px;
     max-width: 500px;
+    line-height: 50px;
     color: #eee;
     text-align: justify;
     text-justify: inter-word;
     hyphens: auto;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .row p {
       max-width: 100%;
       font-size: 18px;

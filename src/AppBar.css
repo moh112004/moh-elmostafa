@@ -27,6 +27,30 @@
     font-size: 21px;
   }
 }
+.appBar .largeDiv {
+  min-width: 550px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .appBar .largeDiv {
+    display: none;
+  }
+}
+
+.appBar .largeDiv span {
+  font-size: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appBar .largeDiv span img{
+  width: 20px;
+}
 .appBar .large {
   list-style: none;
   display: flex;
@@ -34,10 +58,26 @@
   min-width: 450px;
   font-size: 20px;
 }
-@media (max-width: 1000px) {
-  .appBar .large {
-    display: none;
-  }
+
+
+.appBar .large a {
+  text-decoration: none;
+  color: #eee;
+  font-weight: 400;
+  display: block;
+}
+.appBar .large li::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #eee;
+  width: 0%;
+  transition: 0.3s ease-out;
+  margin-left: 50%; 
+  transform: translateX(-50%); 
+}
+.appBar ul li:hover::after {
+  width: 100%;
 }
 .appBar .small {
   
@@ -65,31 +105,13 @@
 .appBar .small li {
   margin-bottom: 10px;
 }
-.appBar ul a {
+.appBar ul a, .appBar .small span {
 
   text-decoration: none;
   color: #eee;
   font-weight: 400;
 }
-.appBar .large a {
-  text-decoration: none;
-  color: #eee;
-  font-weight: 400;
-  display: block;
-}
-.appBar .large a::after {
-  content: "";
-  display: block;
-  height: 2px;
-  background-color: #eee;
-  width: 0%;
-  transition: 0.3s ease-out;
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-.appBar ul a:hover::after {
-  width: 100%;
-}
+
 .appBar .icon {
   height: 20px;
   width: 30px;
