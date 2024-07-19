@@ -28,11 +28,11 @@ function Home() {
   return (
     <div>
       <AppBar />
+      <Landing />
       <div
         className="home"
         style={{ visibility: isPageVisible?"visible":"hidden"}}
       >
-        <Landing />
         <span id="about">
           <Lable>{t('about')}</Lable>
         </span>
