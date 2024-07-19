@@ -12,8 +12,6 @@ import Contact from "./Contact";
 import WhatsAppIcon from "./WhatsAppIcon";
 import Footer from "./Footer";
 import "../Home.css";
-// const Landing = React.lazy(() => import('./Landing'));
-// const WhatsAppIcon = React.lazy(() => import('./WhatsAppIcon'));
 
 function Home() {
   const [isPageVisible, setIsPageVisible] = useState(false);
@@ -21,13 +19,11 @@ function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsPageVisible(true);
-    }, 1000); // تأخير لمدة ثانية واحدة (1000 مللي ثانية)
-
-    // تنظيف المؤقت عندما يتم إزالة المكون
+    }, 100); 
     return () => clearTimeout(timer);
   }, []);
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     //isPageVisible?
