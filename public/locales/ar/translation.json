@@ -1,7 +1,6 @@
 {
-    "welcome": {"This": "dffdfd"},
-    "description": "هذا موقع متعدد اللغات.",
     "language": "en",
+    "languagesmall": "English",
     "home": "الرئيسية",
     "about": "من أنا",
     "portfolio":"أعمالي", 

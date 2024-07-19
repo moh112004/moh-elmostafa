@@ -53,7 +53,7 @@ let changeLanguageButtonClicked = () => {
               </li>
               <hr />
               <li>
-                <span href="#contact" onClick={changeLanguageButtonClicked}>{t("language")}</span>
+                <span href="#contact" onClick={changeLanguageButtonClicked}>{t('languagesmall')}</span>
               </li>
             </ul>
           </div>
