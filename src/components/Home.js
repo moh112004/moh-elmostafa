@@ -19,7 +19,7 @@ function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsPageVisible(true);
-    }, 900); 
+    }, 800); 
     return () => clearTimeout(timer);
   }, []);
 

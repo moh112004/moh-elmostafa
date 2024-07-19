@@ -11,7 +11,7 @@ export default function Landing() {
         data-aos="fade-down"
         data-aos-duration="2000"
         data-aos-once="true"
-        data-aos-delay="1000"
+        data-aos-delay="800"
       >
         <img src={me} alt="" />
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
