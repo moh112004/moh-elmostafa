@@ -20,7 +20,7 @@ let changeLanguageButtonClicked = () => {
   return (
     <>
       <div className="appBar">
-        <p>Moh Elomstafa</p>
+        <p>Moh Elmostafa</p>
         <div className="apear">
           <div className="icon">
             <div className="line"></div>
