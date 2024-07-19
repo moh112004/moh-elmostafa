@@ -83,7 +83,7 @@ let changeLanguageButtonClicked = () => {
             onClick={changeLanguageButtonClicked}
             style={{ color: "#eee", cursor: "pointer" }}
           >
-            <img src={langIcon} />
+            <img src={langIcon} alt=""/>
             &nbsp;{t("language")}
           </span>
         </div>
