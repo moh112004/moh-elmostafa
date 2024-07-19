@@ -19,14 +19,13 @@ function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsPageVisible(true);
-    }, 100); 
+    }, 200); 
     return () => clearTimeout(timer);
   }, []);
 
   const { t } = useTranslation();
 
   return (
-    //isPageVisible?
     <div>
       <AppBar />
       <div
