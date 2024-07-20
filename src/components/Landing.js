@@ -9,7 +9,7 @@ export default function Landing() {
       <div
         className="row"
         data-aos="fade-down"
-        data-aos-duration="2000"
+        data-aos-duration="1000"
         data-aos-once="true"
         data-aos-delay="800"
       >

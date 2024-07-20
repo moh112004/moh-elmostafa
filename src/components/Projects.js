@@ -61,15 +61,15 @@ export default function Projects() {
         </div>
       </div>
       <span onClick={MoreClicked} className="moreButton">
-        {buttonTitle}
+        {more === 0 ? t('showmore'):t('showless')}
       </span>
     </>
   );
 
   function MoreClicked() {
     more === 0 ? setMore(1) : setMore(0);
-    more === 0
-      ? setButtonTitle("Show less ...")
-      : setButtonTitle("Show more ...");
+    // more === 0
+    //   ? setButtonTitle("Show less ...")
+    //   : setButtonTitle("Show more ...");
   }
 }

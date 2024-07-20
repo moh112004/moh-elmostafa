@@ -2,7 +2,7 @@
     "language": "en",
     "languagesmall": "English",
     "home": "الرئيسية",
-    "about": "من أنا",
+    "about": "من أنا؟",
     "portfolio":"أعمالي", 
     "services":"خدماتي",
     "contact": "تواصل معي",
@@ -32,6 +32,7 @@
     "downloadresume": "تحميل السيرة الذاتية PDF",
     "projectslink": "رابط المشروع :",
     "showmore": "عرض المزيد ...",
+    "showless": "عرض أقل ...",
     "service": {
       "web": {
         "name": "تطوير الويب",

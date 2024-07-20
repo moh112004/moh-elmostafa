@@ -32,6 +32,7 @@
     "downloadresume": "Download Resume as PDF",
     "projectslink": "Project's link",
     "showmore": "Show more ...",
+    "showless": "Show less ...",
     "service": {
       "web": {
         "name": "Mobile Development",
