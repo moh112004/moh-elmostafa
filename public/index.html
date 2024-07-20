@@ -25,5 +25,34 @@
     <script>
       AOS.init();
     </script>
+    <!-- <script>
+      document.addEventListener('DOMContentLoaded', () => {
+    // تعريف العناصر التي سيتم مراقبتها
+    const targets = [
+        document.getElementById('element1'),
+        document.getElementById('element2'),
+        document.getElementById('element3'),
+        document.getElementById('element4'),
+        document.getElementById('element5')
+    ];
+
+    // إنشاء مراقب IntersectionObserver
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            } else {
+                entry.target.classList.remove('visible');
+            }
+        });
+    }, {
+        threshold: 0.5 // 50% من العنصر يجب أن يكون مرئيًا لتفعيل الكلاس
+    });
+
+    // إضافة كل عنصر إلى المراقب
+    targets.forEach(target => observer.observe(target));
+});
+
+    </script> -->
   </body>
 </html>

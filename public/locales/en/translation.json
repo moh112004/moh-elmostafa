@@ -1,49 +1,64 @@
 {
-    "language": "ar",
-    "languagesmall": "العربية",
-    "home": "Home",
-    "about": "About",
-    "portfolio":"Portfolio", 
-    "services":"Services",
-    "contact": "Contact",
-    "summury": "Hello, I'm Mohammed Elmostafa, a Front-End Developer specializing in performance optimization and user experience. I have experience with HTML, CSS, JavaScript, Bootstrap, and React.js. I've successfully completed several projects and excel in fast learning and problem-solving. I always strive to improve my skills and deliver the best technical solutions.",
-    "project": {
-      "eltech": {
-        "name": "ELTECH",
-        "content": "A website for ELTECH Software Solutions Company to display its services."
-      },
-      "moda": {
-        "name": "Moda steel factory",
-        "content": "An introductory website for Moda Steel Factory."
-      },
-      "rajil": {
-        "name": "Rajil soon page",
-        "content": "'soon' page for Rajil Delivery Company's website."
-      },
-      "rajilcaptain": {
-        "name": "Rajil captain form",
-        "content": "A page that is a form that is part of an order delivery system that the captain fills out when he delivers the order."
-      },
-      "rajilclient": {
-        "name": "Rajil clien form",
-        "content": "A page that is a form that is part of an order delivery system that the customer fills out when he orders."
-      }
+  "language": "ar",
+  "languagesmall": "العربية",
+  "home": "Home",
+  "about": "About",
+  "portfolio": "Portfolio",
+  "services": "Services",
+  "contact": "Contact",
+  "summury": "Hello, I'm Mohammed Elmostafa, a Front-End Developer specializing in performance optimization and user experience. I have experience with HTML, CSS, JavaScript, Bootstrap, and React.js. I've successfully completed several projects and excel in fast learning and problem-solving. I always strive to improve my skills and deliver the best technical solutions.",
+  "project": {
+    "eltech": {
+      "name": "ELTECH",
+      "content": "A website for ELTECH Software Solutions Company to display its services."
     },
-    "downloadresume": "Download Resume as PDF",
-    "projectslink": "Project's link",
-    "showmore": "Show more ...",
-    "showless": "Show less ...",
-    "service": {
-      "web": {
-        "name": "Mobile Development",
-        "content": "I specialize in creating high-quality mobile applications for both Android and iOS platforms. I ensure seamless performance, user-friendly interfaces, and advanced functionalities to provide a top-notch mobile experience."
-      },
-      "mobile": {
-        "name": "Web Development",
-        "content": "I offer web development services, including building responsive, dynamic, and interactive websites. My focus is on delivering robust web solutions that cater to your business needs, ensuring a smooth user experience and high performance across all devices."
-      }
+    "moda": {
+      "name": "Moda steel factory",
+      "content": "An introductory website for Moda Steel Factory."
+    },
+    "rajil": {
+      "name": "Rajil soon page",
+      "content": "'soon' page for Rajil Delivery Company's website."
+    },
+    "rajilcaptain": {
+      "name": "Rajil captain form",
+      "content": "A page that is a form that is part of an order delivery system that the captain fills out when he delivers the order."
+    },
+    "rajilclient": {
+      "name": "Rajil clien form",
+      "content": "A page that is a form that is part of an order delivery system that the customer fills out when he orders."
+    }
+  },
+  "downloadresume": "Download Resume as PDF",
+  "projectslink": "Project's link",
+  "showmore": "Show more ...",
+  "showless": "Show less ...",
+  "service": {
+    "web": {
+      "name": "Mobile Development",
+      "content": "I specialize in creating high-quality mobile applications for both Android and iOS platforms. I ensure seamless performance, user-friendly interfaces, and advanced functionalities to provide a top-notch mobile experience."
+    },
+    "mobile": {
+      "name": "Web Development",
+      "content": "I offer web development services, including building responsive, dynamic, and interactive websites. My focus is on delivering robust web solutions that cater to your business needs, ensuring a smooth user experience and high performance across all devices."
+    },
+    "customUI": {
+      "name": "Custom User Interface Development and Design",
+      "content": "Service of designing and developing custom user interfaces based on client requirements, focusing on attractive and interactive user experience."
+    },
+    "performanceOptimization": {
+      "name": "Performance and Speed Optimization",
+      "content": "Providing services to enhance the performance and loading speed of websites using techniques such as image compression, code optimization, and tools like Webpack and Gulp."
+    },
+    "responsiveDesign": {
+      "name": "Responsive Web Design",
+      "content": "Offering responsive web design services that adapt to various devices and screens such as smartphones, tablets, and desktops to ensure a superior user experience."
+    },
+    "seoOptimization": {
+      "name": "Front-End SEO Optimization",
+      "content": "Providing front-end SEO optimization services to increase visibility in search results and achieve higher traffic rates."
     },
     "location": "KSA, Riyadh",
     "bymoh": "By moh Elmostafa"
   }
-  
+}
