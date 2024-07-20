@@ -95,12 +95,22 @@ export default function About() {
   const { t } = useTranslation();
   return (
     <>
-      <section className="about">
-        <span className="aboutAr"><MarkdownRenderer content={markdownContentAr}/></span>
-        <span className="aboutEn"><MarkdownRenderer content={markdownContent}/></span>
+      <section
+        className="about"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-once="true"
+        data-aos-delay="50"
+      >
+        <span className="aboutAr">
+          <MarkdownRenderer content={markdownContentAr} />
+        </span>
+        <span className="aboutEn">
+          <MarkdownRenderer content={markdownContent} />
+        </span>
       </section>
-<br/>
-<br/>
+      <br />
+      <br />
       <a
         href="https://drive.google.com/uc?export=download&id=1dBfAG-n1ndqYvdUSo_vgk_xC8_XTq-8y"
         style={{
@@ -110,8 +120,8 @@ export default function About() {
           borderBottom: "#eee solid 2px",
         }}
       >
-        {t('downloadresume')}
-      </a> 
+        {t("downloadresume")}
+      </a>
     </>
   );
 }

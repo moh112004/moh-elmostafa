@@ -7,7 +7,6 @@ html[lang="ar"] {
 }
 html[lang="ar"] .appBar {
   direction: ltr;
-
 }
 html[lang="ar"] .appBar .large {
   direction: rtl;
@@ -24,7 +23,7 @@ html[lang="ar"] .about {
   direction: rtl;
 }
 html[lang="ar"] .about .aboutEn {
-display: none;
+  display: none;
 }
 html[lang="en"] .about .aboutAr {
   display: none;
@@ -42,7 +41,29 @@ body {
   background-color: #070f24;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* تخصيص الشريط في WebKit */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 12px;
 }
+
+::-webkit-scrollbar-track {
+  background: #eee;
+  /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #051636;
+  /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #070f24;
+}
+
+/* تخصيص الشريط في Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
