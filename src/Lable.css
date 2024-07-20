@@ -1,0 +1,32 @@
+.lable {
+  padding: 100px 0 0;
+  text-align: center;
+  color: #eee;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+}
+
+.lable::before {
+  content: "";
+  background-color: #eee;
+  height: 2px;
+  width: 100px;
+  display: block;
+  left: calc(50% - 50px);
+  top: 180px;
+  position: absolute;
+}
+
+.lable::after {
+  content: "";
+  background-color: #070f24;
+  border: 2px #eee solid;
+  height: 7px;
+  width: 7px;
+  position: absolute;
+  left: calc(50% - 3.5px);
+  top: 175.5px;
+  /* transform: rotate(45deg); */
+  border-radius: 10px;
+}
