@@ -11,24 +11,24 @@ export default function Services() {
     <>
       <div className="services">
         <Service
-          image={web}
-          lable={t("service.seoOptimization.name")}
-          content={t("service.seoOptimization.content")}
-        />
-        <Service
-          image={mobile}
-          lable={t("service.customUI.name")}
-          content={t("service.customUI.content")}
-        />
-        <Service
-          image={speed}
-          lable={t("service.performanceOptimization.name")}
-          content={t("service.performanceOptimization.content")}
-        />
-        <Service
           image={responsive}
           lable={t("service.responsiveDesign.name")}
           content={t("service.responsiveDesign.content")}
+        />
+          <Service
+            image={mobile}
+            lable={t("service.customUI.name")}
+            content={t("service.customUI.content")}
+          />
+          <Service
+            image={speed}
+            lable={t("service.performanceOptimization.name")}
+            content={t("service.performanceOptimization.content")}
+          />
+        <Service
+          image={web}
+          lable={t("service.seoOptimization.name")}
+          content={t("service.seoOptimization.content")}
         />
       </div>
     </>
