@@ -1,27 +1,15 @@
 import { useState } from "react";
 import Arctict from "./Article";
 import ReactHooks from "../logo.svg";
+import "../Articles.css"
 
-let DivStyle = {
-  display: "flex",
-  flexDirection: "row",
-  justifyContent: "space-between",
-  marginBottom: "20px",
-};
-let SpanStyle = {
-  textDecoration: "none",
-  color: "#eee",
-  fontSize: "20px",
-  borderBottom: "#eee solid 2px",
-  width: "min-content",
-  cursor: "pointer",
-};
+
 export default function Arcticts() {
   let [more, setMore] = useState(0);
-  let [buttonTitle, setButtonTitle] = useState("Show more ...");
+  let [buttonTitle, setButtonTitle] = useState("عرض المزيد ...");
   return (
     <>
-      <div style={DivStyle}>
+      <div className="articles">
         <Arctict
           image={ReactHooks}
           lable="React Hooks"
@@ -58,7 +46,7 @@ export default function Arcticts() {
           page="blog/css_grid_vs_flexbox"
         />
       </div>
-      <span onClick={MoreClicked} style={SpanStyle}>
+      <span onClick={MoreClicked} className="showMoreButtonArticles">
         {buttonTitle}
       </span>
     </>
@@ -66,7 +54,7 @@ export default function Arcticts() {
   function MoreClicked() {
     more === 0 ? setMore(1) : setMore(0);
     more === 0
-      ? setButtonTitle("Show less ...")
-      : setButtonTitle("Show more ...");
+      ? setButtonTitle("عرض أقل ...")
+      : setButtonTitle("عرض المزيد ...");
   }
 }

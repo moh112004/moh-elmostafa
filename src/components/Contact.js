@@ -38,7 +38,8 @@ export default function Contact() {
             &nbsp;&nbsp;&nbsp;<p>+249 9939 7878 4</p>
           </div>
         </a>
-        <a href="mailto:mohammed.elmostafa.bussinese@gmail.com" style={AStyle}>
+        <a href="mailto:mohamm
+        0ed.elmostafa.bussinese@gmail.com" style={AStyle}>
           <div className="contactRow">
             <img alt="" src={envelope} />
             &nbsp;&nbsp;&nbsp;<p>contact@moh-elmostafa.dev</p>

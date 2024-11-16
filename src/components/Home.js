@@ -5,7 +5,7 @@ import AppBar from "./AppBar";
 import Landing from "./Landing";
 import Lable from "./Lable";
 import About from "./About";
-// import Articles from "./Articles";
+import Articles from "./Articles";
 import Projects from "./Projects";
 import Services from "./Services";
 import Contact from "./Contact";
@@ -41,10 +41,10 @@ function Home() {
           <Lable>{t('portfolio')}</Lable>
         </span>
         <Projects />
-        {/* <span id="blog">
-          <Lable>Blog</Lable>
+         <span id="blog" className="blogTitle">
+          <Lable>المقالات</Lable>
         </span> 
-        <Articles />*/}
+        <Articles />
         <span id="services">
           <Lable>{t('services')}</Lable>
         </span>

@@ -15,6 +15,16 @@ html[lang="ar"] .appBar .large li::after {
   margin-right: 50%;
   transform: translateX(50%);
 }
+html[lang="en"] .blogLi,
+html[lang="en"] .blogTitle,
+html[lang="en"] .articles,
+html[lang="en"] .showMoreButtonArticles,
+html[lang="en"] .smallMenuBLog {
+  display: none;
+}
+html[lang="en"] .appBar .large {
+  min-width: 450px;
+}
 html[lang="ar"] .row .landingText {
   direction: rtl;
 }
@@ -66,4 +76,3 @@ body {
   scrollbar-width: thin;
   scrollbar-color: #051636 #eee;
 }
-

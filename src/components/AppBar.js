@@ -42,7 +42,10 @@ let changeLanguageButtonClicked = () => {
                 <a href="#portfolio">{t("portfolio")}</a>
               </li>
               <hr />
-              {/* <li><a href="#blog">Blog</a></li> */}
+              <span className="smallMenuBLog">
+              <li><a href="#blog">المقالات</a></li>
+              <hr />
+              </span>
               <li>
                 <a href="#services">{t("services")}</a>
               </li>
@@ -70,7 +73,7 @@ let changeLanguageButtonClicked = () => {
             <li>
               <a href="#portfolio">{t("portfolio")}</a>
             </li>
-            {/* <li><a href="#blog">Blog</a></li> */}
+            <li className="blogLi"><a href="#blog">المقالات</a></li>
             <li>
               <a href="#services">{t("services")}</a>
             </li>

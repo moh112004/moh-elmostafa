@@ -60,7 +60,7 @@ export default function Projects() {
           />
         </div>
       </div>
-      <span onClick={MoreClicked} className="moreButton">
+      <span onClick={MoreClicked} className="showMoreButtonProjects">
         {more === 0 ? t('showmore'):t('showless')}
       </span>
     </>

@@ -1,0 +1,14 @@
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .showMoreButtonArticles {
+    text-decoration: none;
+    color: #eee;
+    font-size: 20px;
+    border-bottom: #eee solid 2px;
+    width: min-content;
+    cursor: pointer;
+  }
