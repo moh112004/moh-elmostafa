@@ -41,10 +41,10 @@ function Home() {
           <Lable>{t('portfolio')}</Lable>
         </span>
         <Projects />
-         <span id="blog" className="blogTitle">
+         {/* <span id="blog" className="blogTitle">
           <Lable>المقالات</Lable>
         </span> 
-        <Articles />
+        <Articles /> */}
         <span id="services">
           <Lable>{t('services')}</Lable>
         </span>
